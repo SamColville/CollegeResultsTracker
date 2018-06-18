@@ -12,7 +12,7 @@ namespace CollegeTracker
         static string[] headingArray = { "Year", "Semester", "Class", "Result" };
 
 
-        public static void Main(string[] args)
+        public static void Main()
         {
             int choice = 0;
             string choiceStr = "";
@@ -79,8 +79,8 @@ namespace CollegeTracker
         static void OptionMainThree()
         {
             int year, semester;
-            double finalMark;
-            string module;
+            //double finalMark;
+            //string module;
 
 
             Console.Write("Enter the year of study:  ");
@@ -88,11 +88,6 @@ namespace CollegeTracker
             Console.WriteLine();
             Console.WriteLine("Enter semester:  ");
             semester = int.Parse(Console.ReadLine());
-
-            for (int i = 0; i < max; i++)
-            {
-
-            }
 
 
 
